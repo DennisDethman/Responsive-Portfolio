@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>My Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />-->
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/contact.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+<!--    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/contact.css" />-->
+   
     <script src="main.js"></script>
 
    
@@ -15,39 +16,34 @@
 <body>
 
 
-    <header>
-        <div id="headerCon">
-            <div>
-            <div id="header">
 
-                <section id="myName">Dennis Platts</section>
-            
+  <header id="headerCon" class>
+    <div class="container">
+        <a href:="index.html" id="myName">Dennis Platts</a>
+        <nav>
+            <a id="ind" href="index.html">About</a>
+            <a id="port" href="portfolio.html">Portfolio</a>
+            <a id="con" href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
 
-
-                <section id="links">
-
-                    
-                        <a id="con" href="contact.html">Contact |</a>
-                        <a id="port" href="portfolio.html">Portfolio |</a>
-                        <a id="ind" href="index.html">About |</a>
-                        
-                </section>
-            </div>
+    <!-- <header id="headerCon">
+        <div class="container">
+            <a href:="index.html" id="myName">Dennis Platts</a>
+            <nav>
+                <a id="ind" href="index.html">About</a>
+                <a id="port" href="portfolio.html">Portfolio</a>
+                <a id="con" href="contact.html">Contact</a>
+            </nav>
         </div>
+    </header> -->
+    
+    
+    <div id="mainCon" class="container">
+         <section class="mainSection">
+
             
-    </header>
-    
-    
-    <div id="banner">
-        Contact
-        
-        <hr />
-    
-        
-
-        <div>
-
-            <section id="section">
                 
                 <form action="/action_page.php">
                   <div class="row">
@@ -96,7 +92,10 @@
     
 
     
-    <footer id="footer">Copyright &copy;</footer>
-    
+    <footer>  
+    <div class="container">
+        Copyright &copy;
+    </div>
+    </footer>
 </body>
 </html>
